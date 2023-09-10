@@ -116,6 +116,8 @@ img {
   .search {
     position: relative;
     width:90%;
+    justify-content:center;
+    
     
   }
   .search input {
