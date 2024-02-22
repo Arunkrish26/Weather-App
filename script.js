@@ -45,9 +45,9 @@ async function checkWheather(city) {
     WeatherIcon.src = "images/drizzle.png";
   }
 }
-searchBtn.addEventListener("click", () => {
+function buyValue() {
   checkWheather(searchBox.value);
-});
+}
 
 // Execute a function when the user presses a key on the keyboard
 addEventListener("keypress", (e) => {
